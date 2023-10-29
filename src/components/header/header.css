@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+}
+.name{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+.about-me {
+    font-family: 'Orbitron', sans-serif;
+    color: #858484;
+    font-size: 13px;
+}
