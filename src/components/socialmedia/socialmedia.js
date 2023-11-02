@@ -1,0 +1,19 @@
+import React from 'react'
+import './socialmedia.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+
+function SocialMedia(){
+    return(
+        <div className='icons'>
+            <a href='https://www.linkedin.com/in/felipe-dhein-4a89bb252/' className='icon icon--linkedin' target='blank'>
+            <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+            <a href='https://github.com/NappS5' className='icon icon--github' target='blank'>
+            <FontAwesomeIcon icon={faGithub} />
+            </a>
+        </div>
+    )
+}
+
+export default SocialMedia

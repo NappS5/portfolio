@@ -1,0 +1,70 @@
+.site {
+    margin-bottom: 20px;
+}
+
+.external-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.exp {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+    transition: text-shadow 0.3s; /* Adiciona uma transição para suavizar o efeito */
+}
+
+
+.description-exp {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 60vw;
+    margin-bottom: 30px;
+}
+
+.link-exp {
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 60vw;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(16, 16, 16, 0.693); /* Adiciona uma sombra ao texto */
+
+}
+
+.link {
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(88, 87, 87, 0.682);
+    transition: 0.5s;
+}
+.link:hover {
+    box-shadow: 0px 0px 15px 5px rgba(149, 148, 148, 0.7);
+    background-color: #fff;
+    color: #000;  
+}

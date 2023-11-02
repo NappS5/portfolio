@@ -1,10 +1,21 @@
 .about-container {
     display: flex;
+    flex-wrap: wrap; /* Permite que os itens flexíveis sejam quebrados para a próxima linha */
     justify-content: center;
     align-items: center;
     margin-right: 50px;
-}
-.about_me {
+    margin-bottom: 30px;
+  }
+
+  /* Container para o grupo de 3 divs */
+.about-group {
+    display: flex;
+    flex-wrap: wrap;
+    height: 370px;
+  }
+  
+  .about_me {
+    flex: 1; /* Ocupa espaço igualmente na linha */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,18 +25,18 @@
     margin-left: 30px;
     margin-top: 30px;
     padding: 10px;
-    flex: 1;
-}
-
-.title {
+  }
+  
+  .title {
     font-family: 'Orbitron', sans-serif;
     color: #aaa8a8;
     font-size: 30px;
-}
-
-.description {
+  }
+  
+  .description {
     font-size: 18px;
     color: #fff;
     justify-content: flex-start;
     text-align: center;
-}
+  }
+  
