@@ -2,6 +2,7 @@ import React from 'react';
 import ExternalSiteEmbed from '../externalSite/externalSite';
 import Footer from '../footer/footer';
 import { useEffect } from 'react';
+import Footer from '../footer/footer';
 
 
 
