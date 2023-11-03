@@ -24,7 +24,7 @@ function ExternalSiteEmbed() {
 
 
       <div className='exp-container'>
-        <h1 className='exp'>Rancho030</h1>
+        <h1 className='exp'>Rancho0300</h1>
         <p className='description-exp'>Aqui logo abaixo tenho um site de uma empresa chamada "Rancho030" ou "Fino Confeito", um site bem básico com HTML,
         CSS e JavaScript, que mostra um pouco do lugar.</p>
         <span className='link-exp'>
