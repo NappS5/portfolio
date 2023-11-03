@@ -33,6 +33,7 @@ footer {
 }
 
 .port-mim {
+  margin-top: 10px;
   color: #fff;
   transition: 0.3s;
 }
@@ -47,5 +48,6 @@ footer {
   color: #5d5b5b;
 }
 .links-nav {
+  margin-top: 50px;
   font-family: 'Orbitron', sans-serif;
 }
