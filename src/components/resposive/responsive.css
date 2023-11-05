@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .me-container {
+        height: 120px;
+    }
+    .felipe-sander {
+        max-height: 180px ;
+    }
+    .about-container {
+        flex-direction: column;
+    }
+    .about-group {
+        height: 1150px ;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .about_me {
+        justify-content: center;
+        width: 310px;
+    }
+    .title {
+        padding-top: 10px;
+    }
+    .description {
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .about_me {
+        justify-content: center;
+        width: 200px;
+    }
+    .description {
+        width: 280px;
+        font-size: 17px;
+        align-items: center;
+        justify-content: center;
+    }
+}

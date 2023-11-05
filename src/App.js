@@ -1,11 +1,13 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 import About from './components/about/about';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Me from './components/me/me';
-import './components/reset/reset.css'
 import NewPage from './components/newpage/newpage';
+import './App.css';
+import './components/resposive/responsive.css'
+import './components/me/me.css'
+import './components/reset/reset.css'
 
 
 function App() {
