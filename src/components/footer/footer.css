@@ -1,5 +1,5 @@
 footer {
-  position: static;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: auto; /* Defina a altura como "auto" para acomodar o conteúdo */
@@ -8,7 +8,6 @@ footer {
   font-size: 16px;
   padding: 0 0;
   font-weight: 400;
-  margin-top: 20px;
 }
 
 .footer-content {
@@ -53,7 +52,4 @@ footer {
 }
 .sobre-mim:hover {
   color: #5d5b5b;
-}
-.links-nav {
-  
 }

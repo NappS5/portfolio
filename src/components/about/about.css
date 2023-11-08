@@ -11,7 +11,6 @@
 .about-group {
     display: flex;
     flex-wrap: wrap;
-    height: 700px;
   }
   
   .about_me {
@@ -21,7 +20,6 @@
     justify-content: flex-start;
     align-items: center;
     max-width: 400px;
-    max-height: 150px;
     margin-left: 30px;
     margin-top: 30px;
     padding: 10px;
