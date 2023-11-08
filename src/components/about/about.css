@@ -3,15 +3,15 @@
     flex-wrap: wrap; /* Permite que os itens flexíveis sejam quebrados para a próxima linha */
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
-    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-bottom: 100px;
   }
 
   /* Container para o grupo de 3 divs */
 .about-group {
     display: flex;
     flex-wrap: wrap;
-    height: 370px;
+    height: 700px;
   }
   
   .about_me {
