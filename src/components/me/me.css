@@ -6,7 +6,31 @@
 }   
 
 .felipe-sander {
-    background-color: #fff;
     background-size: contain;
     max-height: 380px;
+}
+
+.links-nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+}
+
+.port-mim-header {
+  color: #ffffff;
+  transition: 0.3s;
+}
+.port-mim-header:hover {
+  color: #000000;
+}
+
+.sobre-mim-header {
+  color: #ffffff;
+}
+.sobre-mim-header:hover {
+  color: #000000;
 }

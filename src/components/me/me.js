@@ -9,9 +9,9 @@ function Me(){
         <div className='me-container'>
             <img className='felipe-sander' src='./imgs/felipe-sander.png' alt='Me similing'></img>
         </div>
-            <div className='links-nav'>
-            <Link className='port-mim' to="/portfolio">Portfólio</Link>
-            <Link className='sobre-mim' to="/">Sobre mim</Link>
+            <div className='links-nav-header'>
+            <Link className='sobre-mim-header' to="/">Sobre mim</Link>
+            <Link className='port-mim-header' to="/portfolio">Portfólio</Link>
             </div>
         </>
     )

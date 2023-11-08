@@ -35,6 +35,8 @@ footer {
     align-items: center;
     flex-direction: column;
     transition: 0.5s;
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .port-mim {
@@ -53,6 +55,5 @@ footer {
   color: #5d5b5b;
 }
 .links-nav {
-  margin-top: 50px;
-  font-family: 'Orbitron', sans-serif;
+  
 }
