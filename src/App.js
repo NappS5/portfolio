@@ -14,11 +14,11 @@ function App() {
   return (
     <>
       <Router>
-        <div>
+        <div >
           <Routes>
             <Route path="/portfolio" element={<NewPage />} />
             <Route path="/" element={
-              <div>
+              <div className='container-app'>
                 <Header />
                 <Me />
                 <About />

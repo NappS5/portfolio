@@ -1,5 +1,6 @@
 footer {
   position: relative;
+  margin-top: auto;
   bottom: 0;
   width: 100%;
   height: auto; /* Defina a altura como "auto" para acomodar o conteúdo */
